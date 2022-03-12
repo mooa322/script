@@ -229,7 +229,7 @@ class ConnectionHandler(threading.Thread):
 def print_usage():
     print 'Usage: proxy.py -p <port>'
     print '       proxy.py -b <bindAddr> -p <port>'
-    print '       proxy.py -b 0.0.0.0 -p 80'
+    print '       proxy.py -b 0.0.0.0 -p 8888'
 
 def parse_args(argv):
     global LISTENING_ADDR
@@ -258,7 +258,7 @@ def main(host=LISTENING_ADDR, port=LISTENING_PORT):
     print "\033[34m:-------------RODANDO NA PORTA: \033[0;0m" + str(LISTENING_PORT) + "\n"
     print ":---CANAL: @PayloadHTTP BY: @LindoFuLL---\n"
     print ":---DEIXE RODANDO EM SEGUNDO PLANO-------\n"
-    print "\033[31m :---------- APERTE,  CTRL A D ------------: \033[0;0m"
+    print "\033[31m :---------- APERTE,  CTRL A ------------: \033[0;0m"
     print ":---------------------------------------:\n"
 
     server = Server(LISTENING_ADDR, LISTENING_PORT)
@@ -275,4 +275,3 @@ def main(host=LISTENING_ADDR, port=LISTENING_PORT):
 if __name__ == '__main__':
     parse_args(sys.argv[1:])
     main()
-reboot
