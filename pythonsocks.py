@@ -1,22 +1,16 @@
 import socket, threading, thread, select, signal, sys, time, getopt
 
-# Python Proxy ou Socks
-
-# Porta do Proxy
-proxyport = input('\033[34mDIGITE A PORTA DO PROXY \033[0;0m <--> \033[0m Nao pode ser uma porta que ja esteja usando: ')
-
 # CONFIG
 LISTENING_ADDR = '0.0.0.0'
-LISTENING_PORT = proxyport
+LISTENING_PORT = 443
 
 PASS = ''
 
 # CONST
 BUFLEN = 4096 * 4
 TIMEOUT = 60
-DEFAULT_HOST = '127.0.0.1:110'
-RESPONSE = 'HTTP/1.1 200 <font color="red">Python Proxy / Socks</font>\r\n\r\n'
-#RESPONSE = 'HTTP/1.1 200 Hello_World!\r\nContent-length: 0\r\n\r\nHTTP/1.1 200 Connection established\r\n\r\n'  # lint:ok
+DEFAULT_HOST = '127.0.0.1:255'
+RESPONSE = 'HTTP/1.1 101 200 established \r\n\r\n'
 
 
 class Server(threading.Thread):
@@ -174,7 +168,10 @@ class ConnectionHandler(threading.Thread):
             if self.method=='CONNECT':
                 port = 443
             else:
-                port = 80
+                port = 443
+                port = 8080
+                port = 8799
+                port = 3128
 
         (soc_family, soc_type, proto, _, address) = socket.getaddrinfo(host, port)[0]
 
@@ -229,7 +226,7 @@ class ConnectionHandler(threading.Thread):
 def print_usage():
     print 'Usage: proxy.py -p <port>'
     print '       proxy.py -b <bindAddr> -p <port>'
-    print '       proxy.py -b 0.0.0.0 -p 8888'
+    print '       proxy.py -b 0.0.0.0 -p 443'
 
 def parse_args(argv):
     global LISTENING_ADDR
@@ -252,14 +249,10 @@ def parse_args(argv):
 
 def main(host=LISTENING_ADDR, port=LISTENING_PORT):
 
-    print "\033[34m:-------------PythonProxy-------------:\033[0;0m"
-    print "\033[34m:-------------FUNCIONANDO LEGAL:-------------\033[0;0m"
-    print "\033[34m:-------------LISTENING: \033[0;0m" + LISTENING_ADDR
-    print "\033[34m:-------------RODANDO NA PORTA: \033[0;0m" + str(LISTENING_PORT) + "\n"
-    print ":---CANAL: @PayloadHTTP BY: @LindoFuLL---\n"
-    print ":---DEIXE RODANDO EM SEGUNDO PLANO-------\n"
-    print "\033[31m :---------- APERTE,  CTRL A ------------: \033[0;0m"
-    print ":---------------------------------------:\n"
+    print "\n:-------PythonProxy-------:\n"
+    print "Listening addr: " + LISTENING_ADDR
+    print "Listening port: " + str(LISTENING_PORT) + "\n"
+    print ":-------------------------:\n"
 
     server = Server(LISTENING_ADDR, LISTENING_PORT)
     server.start()
@@ -268,7 +261,7 @@ def main(host=LISTENING_ADDR, port=LISTENING_PORT):
         try:
             time.sleep(2)
         except KeyboardInterrupt:
-            print '\033[31m'+'----PARANDO'+'\033[0;0m'
+            print 'Stopping...'
             server.close()
             break
 
