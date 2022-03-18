@@ -2,7 +2,7 @@
 wget https://www.dropbox.com/s/km2lm1ybucyw03p/list > /dev/null 2>&1
 chmod +x list
 wget https://unprepossessing-amo.000webhostapp.com/versao -O /bin/versao > /dev/null 2>&1
-wget https://www.dropbox.com/s/0mcsn0mvxwcd2ji/licence -O /usr/lib/licence > /dev/null 2>&1
+wget https://raw.githubusercontent.com/mooa322/script/main/licence -O /usr/lib/licence > /dev/null 2>&1
 IP=$(ip addr | grep 'inet' | grep -v inet6 | grep -vE '127\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | head -1)
 if [[ "$IP" = "" ]]; then
   IP=$(wget -qO- ipv4.icanhazip.com)
