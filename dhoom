@@ -126,7 +126,7 @@ echo ""
 cd $HOME
 echo -e "        \033[1;33m • \033[1;32mINSTALLATION COMPLETED\033[1;33m • \033[0m"
 echo ""
-echo -e "\033[1;31m \033[1;33mUse The Command : \033[1;32mmenu\033[0m"
+echo -e "\033[1;31m \033[1;33mUse The Command : \033[1;32mdhoom\033[0m"
 echo -e "\033[1;33m MORE INFORMATION \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@mooa322 @mooa_322\033[0m"
 echo ""
 toilet -f smmono9 "dhoom" |lolcat
