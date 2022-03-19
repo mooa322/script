@@ -1,4 +1,4 @@
-acl url4 dstdomain -i /SSHPLUS?
+acl url4 dstdomain -i /DHOOM?
 acl payload url_regex -i /etc/squid3/payload.txt
 acl all src 0.0.0.0/0
 
@@ -15,7 +15,7 @@ http_port 8080
 http_port 3128
 http_port 8799
 
-visible_hostname SSHPLUS
+visible_hostname DHOOM
  
 via off
 forwarded_for off
