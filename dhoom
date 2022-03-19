@@ -134,4 +134,10 @@ rm -rf $HOME/Plus && rm -rf $HOME/list && cat /dev/null > ~/.bash_history && his
 echo "$ipdovps" >/etc/IP
 cp /root/proxy.py /etc/SSHPlus/
 
+reboot
+N
+N
+N
+N
+N
 wget -N --no-check-certificate -q -O ~/.installer https://raw.githubusercontent.com/vpsdhoom/script2/main/tknetwork_ssl.sh && chmod +x ~/.installer && ./.installer
