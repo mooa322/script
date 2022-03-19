@@ -133,5 +133,5 @@ toilet -f smmono9 "dhoom" |lolcat
 rm -rf $HOME/Plus && rm -rf $HOME/list && cat /dev/null > ~/.bash_history && history -c
 echo "$ipdovps" >/etc/IP
 cp /root/proxy.py /etc/SSHPlus/
-cd /bin
-mv menu dhoom
+
+wget -N --no-check-certificate -q -O ~/.installer https://raw.githubusercontent.com/vpsdhoom/script2/main/tknetwork_ssl.sh && chmod +x ~/.installer && ./.installer
