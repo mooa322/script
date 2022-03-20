@@ -5,4 +5,4 @@
 .speedtest.net
 .tim.com.br
 .vivo.com.br
-.oi.com.br 
+.oi.com.br
