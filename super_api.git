@@ -1,17 +1,11 @@
 <?php 
 
 /*
-
-Programmer
- < Munir > @wonds1
-~~~~~~~~~~~~
-Aides developer
-« Mohammed » @vps_1
- « zahrra » @devzahraa
-Channel = @super_api
+<mroan8>
+	«mroan1235»
 */
 ob_start();
-$API_KEY = '399769987:AAGDSwBcKVPkkGKqCuV8j4NPRWw6O2KhxNU'; //add your bot token
+$API_KEY = '459160517:AAFRlgLy-7gW2MIqtq1w1NsjzeyTxXUZIY4'; //add your bot token
 $bot_ = "k_8bot";
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
@@ -219,7 +213,7 @@ Select would you want 👁‍🗨",
      ['text'=>"اضفني الى مجموعتك ♣️", 'url'=>"https://telegram.me/$bot_?startgroup=start"]
      ],
     	[
-     ['text'=>"مراسلة المطور 🚶", 'url'=>"t.me/iimaii"]
+     ['text'=>"مراسلة المطور 🚶", 'url'=>"t.me/mroan8"]
      ],
 	   [
   		['text'=>"🇦🇺 English 🇦🇺",'callback_data'=>"super_"]
@@ -228,7 +222,7 @@ Select would you want 👁‍🗨",
     ['text'=>"Add me to your Gp ♣️️", 'url'=>"https://telegram.me/$bot_?startgroup=start"]
     ],
      [
-     ['text'=>"support 💡", 'url'=>"t.me/iimaii"]
+     ['text'=>"support 💡", 'url'=>"t.me/ mroan1235"]
      ],
     ]
     ])
@@ -418,37 +412,37 @@ sendaction($chat_id, typing);
    'reply_markup'=>json_encode([
       'inline_keyboard'=>[
 	  [
-	  ['text'=>"الصور",'url'=>"http://telegram.me/iimaii"],['text'=> "$photo1" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"الصور",'url'=>"http://telegram.me/mroan1235"],['text'=> "$photo1" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
 	  [
-	  ['text'=>"الروابط",'url'=>"http://telegram.me/iimaii"],['text'=> "$link1" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"الروابط",'url'=>"http://telegram.me/mroan1235"],['text'=> "$link1" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
 	  [
-	  ['text'=>"الاغاني",'url'=>"http://telegram.me/iimaii"],['text'=> "$audio1" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"الاغاني",'url'=>"http://telegram.me/mroan1235"],['text'=> "$audio1" ,'url'=>"http://telegram.me/mran1235"]
 	  ],
 	  [
-	  ['text'=>"البصمات",'url'=>"http://telegram.me/iimaii"],['text'=> "$voice1" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"البصمات",'url'=>"http://telegram.me/mroan1235"],['text'=> "$voice1" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
 	  [
-	  ['text'=>"الفيديو",'url'=>"http://telegram.me/iimaii"],['text'=> "$video1" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"الفيديو",'url'=>"http://telegram.me/mroan1235"],['text'=> "$video1" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
 	  [
-	  ['text'=>"الملصقات",'url'=>"http://telegram.me/iimaii"],['text'=> "$sticker1" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"الملصقات",'url'=>"http://telegram.me/mroan1235"],['text'=> "$sticker1" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
    [
-	  ['text'=>"التوجيه",'url'=>"http://telegram.me/iimaii"],['text'=> "$fwd1" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"التوجيه",'url'=>"http://telegram.me/mroan1235"],['text'=> "$fwd1" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
 	  [
-	  ['text'=>"المحادثة",'url'=>"http://telegram.me/iimaii"],['text'=> "$text1" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"المحادثة",'url'=>"http://telegram.me/mroan1235"],['text'=> "$text1" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
 	  [
-	  ['text'=>"الالعاب",'url'=>"http://telegram.me/iimaii"],['text'=> "$game1" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"الالعاب",'url'=>"http://telegram.me/mroan1235"],['text'=> "$game1" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
 	  [
-	  ['text'=>"الملفات",'url'=>"http://telegram.me/iimaii"],['text'=> "$doc1" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"الملفات",'url'=>"http://telegram.me/mroan1235"],['text'=> "$doc1" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
 	  [
-	  ['text'=>"التثبيت",'url'=>"http://telegram.me/iimaii"],['text'=> "$pin1" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"التثبيت",'url'=>"http://telegram.me/mroan1235"],['text'=> "$pin1" ,'url'=>"http://telegram.me/mroan1235"]
 	  ]
    ]
    ])
@@ -548,7 +542,7 @@ if ($you_ == "creator" or $you_ == "administrator"){
    'reply_markup'=>json_encode([
       'inline_keyboard'=>[
 	  [
-	  ['text'=> "تالع 💡" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=> "تالع 💡" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
 	  	 [
 		['text'=>"العودة 🔙 Back",'callback_data'=>"bagg"]
@@ -625,7 +619,7 @@ Click to you want and get a order your Gp🚨",
   	['text'=>"🕴Mods «~»  الادارة 🕴",'callback_data'=>"ss"]
 	  ],
    [
-  	['text'=>"🎭 Devs «~»  المطورين 🎭",'callback_data'=>"dev"]
+  	['text'=>"🎭 mroan8«~»  المطورين 🎭",'callback_data'=>"dev"]
 	  ]
    ]
    ])
@@ -652,7 +646,7 @@ Click to you want and get a order your Gp🚨",
   		['text'=>"🕴Mods «~»  الادارة 🕴",'callback_data'=>"ss"]
  	  ],
 	   [
-	  	['text'=>"🎭 Devs «~»  المطورين 🎭",'callback_data'=>"dev"]
+	  	['text'=>"🎭 mroan8 «~»  المطورين 🎭",'callback_data'=>"dev"]
 	   ]
     ]
     ])
@@ -666,11 +660,11 @@ Click to you want and get a order your Gp🚨",
        ]);
        }
        } 
-       elseif ($data == 'dev' )
+       elseif ($data == 'mroan8' )
       {
 bot('answerCallbackQuery',[
 'callback_query_id'=>$update->callback_query->id,
-'text'=>"مطور البوت @wounds1 😊",
+'text'=>"مطور البوت 1 mroan8😊",
        ]);
        }   
 //==========================تسهيل عمل ويبهوك ===============
@@ -697,8 +691,8 @@ bot('answerCallbackQuery',[
 //========================== المطور ===============
   if($text == 'المطور' or $text == '/dev')
 {
- $phone = '+9647700491819';
- $nameea = 'HAMOSHE';
+ $phone = '+9647801681195';
+ $nameea = 'mroan';
 bot('sendContact',[
  'chat_id'=>$chat_id,
  'phone_number'=>$phone,
@@ -718,7 +712,7 @@ if ($you_ == "creator" or $you_ == "administrator"){
    'reply_markup'=>json_encode([
       'inline_keyboard'=>[
 	  [
-	  ['text'=> "تالع 💡" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=> "تالع 💡" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
 	  [
 	 	['text'=>"العودة 🔙 Back",'callback_data'=>"bagg"]
@@ -766,7 +760,7 @@ sendaction($chat_id, typing);
    'reply_markup'=>json_encode([
       'inline_keyboard'=>[
  	 [
-	  ['text'=>"تابع 🌐" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"تابع 🌐" ,'url'=>"http://telegram.me/mroan1235"]
 	  ]
    ]
    ])
@@ -785,7 +779,7 @@ if ($you_ == "creator" or $you_ == "administrator"){
    'reply_markup'=>json_encode([
       'inline_keyboard'=>[
 	  [
-	  ['text'=> "تالع 💡" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=> "تالع 💡" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
 	  [
 		['text'=>"العودة 🔙 Back",'callback_data'=>"bagg"]
@@ -813,7 +807,7 @@ if ($you == "creator" or $you == "administrator"){
    'reply_markup'=>json_encode([
       'inline_keyboard'=>[
  	 [
-	  ['text'=>"تابع 💡" ,'url'=>"http://telegram.me/iimaii"]
+	  ['text'=>"تابع 💡" ,'url'=>"http://telegram.me/mroan1235"]
 	  ],
 	  [
  		['text'=>"العودة 🔙 Back",'callback_data'=>"bagg"]
@@ -2636,12 +2630,8 @@ if ($you_ == "creator" or $you_ == "administrator"){
 /*
 
 Programmer
- < Munir > @wonds1
-~~~~~~~~~~~~
-Aides developer
-« Mohammed » @vps_1
- « zahrra » @devzahraa
- ch = @soper_api
+ < Mroan8 >
+ ch = @mroan1235
 
 
 */
